@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio | Miguel Medina</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1><span>👨‍💻</span> Miguel Medina</h1>
+      <nav>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://github.com/MdeMedina" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>¡Hola! Soy Miguel</h2>
+      <p>Soy desarrollador Fullstack con pasión por crear soluciones eficientes y creativas. Bienvenido a mi portafolio personal 👇</p>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h2>🛠 Proyectos</h2>
+
+      <div class="grid">
+<div class="card">
+  <h3>Proyecto de Gestion personalizada</h3>
+  <div class="carousel" data-proyecto="1">
+
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421579/Captura_de_pantalla_2025-08-05_141805_oaruo8.png" class="slide active" alt="Captura 1"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421580/Captura_de_pantalla_2025-08-05_145619_ivzdga.png" class="slide" alt="Captura 2"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421579/Captura_de_pantalla_2025-08-05_145328_axn1ij.png" class="slide" alt="Captura 3"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421579/Captura_de_pantalla_2025-08-05_145444_qsnoyy.png" class="slide" alt="Captura 4"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421580/Captura_de_pantalla_2025-08-05_145729_t93tml.png" class="slide" alt="Captura 5"/>
+    <button class="prev" onclick="prevSlide(this)">❮</button>
+    <button class="next" onclick="nextSlide(this)">❯</button>
+  </div>
+  <p><p>
+  Aplicación web desarrollada con React 18 para la gestión de ventas y presupuestos. Permite iniciar sesión, administrar clientes y productos, generar cotizaciones y pedidos en PDF, y enviarlos por correo al backend configurado.
+
+  <br/><br/>
+  <strong>Tecnologías:</strong> React 18, React Router, Bootstrap, Reactstrap, React Select, Datepicker, Toastify, Axios, Socket.IO, jsPDF, ExcelJS, react-pdf, xlsx, Cloudinary, FontAwesome y Boxicons.
+</p>
+</p>
+  <a href="https://github.com/MdeMedina/Frontend-toyoexpress" target="_blank">Ver código →</a>
+</div>
+<div class="card">
+  <h3>Creador de presupuestos</h3>
+  <div class="carousel" data-proyecto="1">
+
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421636/Captura_de_pantalla_2025-04-07_064914_m2u50d.png" class="slide active" alt="Captura 1"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421636/Captura_de_pantalla_2025-04-07_065434_y9ljb5.png" class="slide" alt="Captura 2"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421636/Captura_de_pantalla_2025-04-07_064947_agxhkz.png" class="slide" alt="Captura 3"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421636/Captura_de_pantalla_2025-04-07_065238_wskmu8.png" class="slide" alt="Captura 4"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421636/Captura_de_pantalla_2025-04-07_065453_azhamf.png" class="slide" alt="Captura 5"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421637/Captura_de_pantalla_2025-04-07_065555_pmlqzf.png" class="slide" alt="Captura 5"/>
+    <button class="prev" onclick="prevSlide(this)">❮</button>
+    <button class="next" onclick="nextSlide(this)">❯</button>
+  </div>
+  <p><p>
+  Aplicación web desarrollada con React 18 para la gestión de ventas y presupuestos. Permite iniciar sesión, administrar clientes y productos, generar cotizaciones y pedidos en PDF, y enviarlos por correo al backend configurado.
+
+  <br/><br/>
+  <strong>Tecnologías:</strong> React 18, React Router, Bootstrap, Reactstrap, React Select, Datepicker, Toastify, Axios, Socket.IO, jsPDF, ExcelJS, react-pdf, xlsx, Cloudinary, FontAwesome y Boxicons.
+</p>
+</p>
+  <a href="https://github.com/MdeMedina/front-ldmbm" target="_blank">Ver código →</a>
+</div>
+<div class="card">
+  <h3>Personalización 3D en React para E-commerce</h3>
+  <div class="carousel" data-proyecto="1">
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754423499/Captura_de_pantalla_2025-08-05_151014_hbdbgo.png" class="slide active" alt="Captura 1"/>
+
+    <button class="prev" onclick="prevSlide(this)">❮</button>
+    <button class="next" onclick="nextSlide(this)">❯</button>
+  </div>
+<p>
+  Aplicación web desarrollada con <strong>React 18</strong> que permite la personalización visual en 3D de productos, integrada con tiendas Shopify. Los usuarios pueden modificar colores, textos, materiales o estampados sobre un modelo 3D en tiempo real y agregar sus diseños personalizados directamente al carrito de compra de la tienda.
+
+  <br/><br/>
+  <strong>Tecnologías utilizadas:</strong> React 18, Three.js, React Three Fiber, React Router DOM, Bootstrap, React Select, react-bootstrap, @react-pdf/renderer, Cloudinary, Shopify Storefront API, y otras integraciones visuales personalizadas.
+</p>
+</p>
+  <a href="https://varsitylegacy.com/products/build-your-custom-jacket" target="_blank">Ver página →</a>
+</div>
+<div class="card">
+  <h3>Landing Page desarrollada con Wordpress y Elementor</h3>
+  <div class="carousel" data-proyecto="1">
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421579/Captura_de_pantalla_2025-08-05_151231_ita7zj.png" class="slide active" alt="Captura 1"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421580/Captura_de_pantalla_2025-08-05_151359_ofb2v7.png" class="slide" alt="Captura 2"/>
+    <img src="https://res.cloudinary.com/dzktjoix0/image/upload/v1754421579/Captura_de_pantalla_2025-08-05_150750_rwbqav.png" class="slide" alt="Captura 2"/>
+    <button class="prev" onclick="prevSlide(this)">❮</button>
+    <button class="next" onclick="nextSlide(this)">❯</button>
+  </div>
+  <p><p>
+  Sitio web administrable construido sobre <strong>WordPress</strong> utilizando <strong>Elementor</strong> para facilitar el diseño visual sin necesidad de código. Permite gestionar el contenido de forma sencilla mediante un panel intuitivo, con secciones personalizadas, formularios de contacto, integración con redes sociales y optimización para dispositivos móviles.
+
+  <br/><br/>
+  <strong>Tecnologías utilizadas:</strong> WordPress, Elementor, PHP, HTML, CSS, Contact Form 7, Yoast SEO, y plugins personalizados según los requerimientos del cliente.
+</p>
+</p>
+  <a href="https://pkgdgroup.com/g4-tequila/" target="_blank">Ver página →</a>
+</div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>📬 Contacto</h2>
+      <p>¿Quieres trabajar conmigo o tienes preguntas? Escríbeme a:</p>
+      <p><strong>mamedina770@gmail.com</strong> o <a href="https://wa.link/bhn70g" target="_blank">Whatsapp</a> </p>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Miguel Medina - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
